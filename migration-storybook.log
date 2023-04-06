@@ -1,0 +1,245 @@
+🔎 checking possible migrations..
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 4,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 4,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 4,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 4,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 4,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 4,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+
+🔎 found a 'new-frameworks' migration:
+╭ Automigration detected ───────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                   │
+│   We've detected your project is not fully setup with Storybook's 7 new framework format.                         │
+│                                                                                                                   │
+│   Storybook 7 introduced the concept of frameworks, which abstracts configuration for renderers (e.g. React,      │
+│   Vue), builders (e.g. Webpack, Vite) and defaults to make integrations easier.                                   │
+│                                                                                                                   │
+│   Your project should be updated to use Storybook's framework: @storybook/nextjs. We can attempt to do this for   │
+│   you automatically.                                                                                              │
+│                                                                                                                   │
+│   Here are the steps this migration will do to migrate your project:                                              │
+│   - Update or specify the framework field in .storybook/main.ts with the value of "@storybook/nextjs".            │
+│                                                                                                                   │
+│                                                                                                                   │
+│   To learn more about the new framework format, see:                                                              │
+│   https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#new-framework-api                               │
+│                                                                                                                   │
+│   The @storybook/nextjs package provides great user experience for Next.js users, and we highly recommend you     │
+│   to read more about it at https://github.com/storybookjs/storybook/blob/next/code/frameworks/nextjs/README.md    │
+│                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+? Do you want to run the 'new-frameworks' migration on your project? › (Y/n)✔ Do you want to run the 'new-frameworks' migration on your project? … yes
+✅ Updating main.js
+✅ Updating "framework" field
+✅ ran new-frameworks migration
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 3,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+
+🔎 found a 'incompatible-addons' migration:
+╭ Manual migration detected ────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                   │
+│   Attention: We've detected that you're using the following addons in versions which are known to be              │
+│   incompatible with Storybook 7:                                                                                  │
+│                                                                                                                   │
+│   - @storybook/addon-postcss@2.0.0                                                                                │
+│                                                                                                                   │
+│   Please be aware they might not work in Storybook 7. Reach out to their maintainers for updates and check the    │
+│   following Github issue for more information:                                                                    │
+│   https://github.com/storybookjs/storybook/issues/20529                                                           │
+│                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+? Select continue once you have made the required changes, or quit to exit the migration process › quit / continue? Select continue once you have made the required changes, or quit to exit the migration process › quit / continue? Select continue once you have made the required changes, or quit to exit the migration process › quit / continue✔ Select continue once you have made the required changes, or quit to exit the migration process … quit / continue
+
+🔎 found a 'removedglobalclientapis' migration:
+╭ Manual migration detected ─────────────────────────────────────────────────────────────────────╮
+│                                                                                                │
+│   Attention: We could not automatically make this change. You'll need to do it manually.       │
+│                                                                                                │
+│   The following APIs (used in ".storybook/preview.ts") have been removed from Storybook:       │
+│                                                                                                │
+│   - addDecorator                                                                               │
+│                                                                                                │
+│   Please see the migration guide for more information:                                         │
+│   https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#removed-global-client-apis   │
+│                                                                                                │
+╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+? Select continue once you have made the required changes, or quit to exit the migration process › quit / continue✔ Select continue once you have made the required changes, or quit to exit the migration process … quit / continue
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 3,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+
+🔎 found a 'github-flavored-markdown-mdx' migration:
+╭ Automigration detected ───────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                   │
+│   In MDX1 you had the option of using GitHub flavored markdown.                                                   │
+│                                                                                                                   │
+│   Storybook 7.0 uses MDX2 for compiling MDX, and thus no longer supports GFM out of the box.                      │
+│   Because of this you need to explicitly add the GFM plugin in the addon-docs options:                            │
+│   https://storybook.js.org/docs/7.0/react/writing-docs/mdx#lack-of-github-flavored-markdown-gfm                   │
+│                                                                                                                   │
+│   We recommend you follow the guide on the link above, however we can add a temporary storybook addon that        │
+│   helps make this migration easier.                                                                               │
+│   We'll install the addon and add it to your storybook config.                                                    │
+│                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+? Do you want to run the 'github-flavored-markdown-mdx' migration on your project? › (Y/n)✔ Do you want to run the 'github-flavored-markdown-mdx' migration on your project? … yes
+✅ Adding "@storybook/addon-mdx-gfm" addon
+✅ ran github-flavored-markdown-mdx migration
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 3,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+
+🔎 found a 'autodocsTrue' migration:
+╭ Automigration detected ────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                    │
+│   We've changed the configuration of autodocs (previous docsPage), so now the value:               │
+│     - docs.autodocs: true -- means automatically create docs for every CSF file                    │
+│     - docs.autodocs: 'tag' -- means only create autodocs for CSF files with the 'autodocs' tag     │
+│     - docs.autodocs: false -- means never create autodocs                                          │
+│                                                                                                    │
+│   Based on your prior configuration,  we can set the `docs.autodocs` to keep your old behaviour:   │
+│                                                                                                    │
+│   docs: { autodocs: true }                                                                         │
+│                                                                                                    │
+│   More info: https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#autodocs-changes      │
+│                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────╯
+? Do you want to run the 'autodocsTrue' migration on your project? › (Y/n)✔ Do you want to run the 'autodocsTrue' migration on your project? … yes
+✅ Setting 'docs.autodocs' to true in main.js
+✅ ran autodocsTrue migration
+{
+  column: 0,
+  file: '/home/ryooo/nextjs-gihyo-book/.storybook/main.ts',
+  length: 6,
+  line: 3,
+  lineText: 'module.exports = {',
+  namespace: '',
+  suggestion: ''
+}
+The CommonJS "module" variable is treated as a global variable in an ECMAScript module and may not work as expected
+
+⚠️  failed to check fix missing-babelrc
+
+TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.check (/home/ryooo/.npm/_npx/eb8bf615e50a412a/node_modules/@storybook/cli/dist/generate.js:263:720)
+    at async runFixes (/home/ryooo/.npm/_npx/eb8bf615e50a412a/node_modules/@storybook/cli/dist/generate.js:320:1163)
+    at async automigrate (/home/ryooo/.npm/_npx/eb8bf615e50a412a/node_modules/@storybook/cli/dist/generate.js:317:636)
+    at async Command.<anonymous> (/home/ryooo/.npm/_npx/eb8bf615e50a412a/node_modules/@storybook/cli/dist/generate.js:431:2802)
+
+╭ Migration check ran with failures ────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                   │
+│   Successful migrations:                                                                                          │
+│                                                                                                                   │
+│   new-frameworks, github-flavored-markdown-mdx, autodocsTrue                                                      │
+│                                                                                                                   │
+│   Failed migrations:                                                                                              │
+│                                                                                                                   │
+│   missing-babelrc:                                                                                                │
+│   Cannot read properties of undefined (reading 'name')                                                            │
+│                                                                                                                   │
+│   You can find the full logs in /home/ryooo/nextjs-gihyo-book/migration-storybook.log                             │
+│                                                                                                                   │
+│   Manual migrations:                                                                                              │
+│                                                                                                                   │
+│   incompatible-addons, removedglobalclientapis                                                                    │
+│                                                                                                                   │
+│   ─────────────────────────────────────────────────                                                               │
+│                                                                                                                   │
+│   If you'd like to run the migrations again, you can do so by running 'npx storybook@next automigrate'            │
+│                                                                                                                   │
+│   The automigrations try to migrate common patterns in your project, but might not contain everything needed to   │
+│   migrate to the latest version of Storybook.                                                                     │
+│                                                                                                                   │
+│   Please check the changelog and migration guide for manual migrations and more information:                      │
+│   https://storybook.js.org/migration-guides/7.0                                                                   │
+│   And reach out on Discord if you need help: https://discord.gg/storybook                                         │
+│                                                                                                                   │
+│   ─────────────────────────────────────────────────                                                               │
+│                                                                                                                   │
+│   Attention: The following dependencies are duplicated which might cause unexpected behavior:                     │
+│                                                                                                                   │
+│   @storybook/node-logger:                                                                                         │
+│   6.5.16, 7.0.0-beta.52, 7.0.2                                                                                    │
+│                                                                                                                   │
+│   You can find more information for a given dependency by running npm ls --depth=1 <package-name>                 │
+│                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
